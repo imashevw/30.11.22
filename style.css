@@ -28,33 +28,46 @@
     flex-shrink: 1;
   }
   .col-12{
-    flex: 100% 1 1;
+    flex: 100% 0 0;
   }
   .col-1{
-    flex: 8.3% 1 1;
+    flex: 8.3% 0 0;
   }
-  .col-2{
-    flex: 16.6% 1 1;
+  .col-2 {
+    flex: 16.6% 0 0;
   }
-  .col-5{
-  flex: 41.6% 1 1;
+  .col-5 {
+  flex: 41.6% 0 0;
   }
-  .col-6{
+  .col-6 {
     flex: 50% 0 0;
   }
-  .col-7{
+  .col-7 {
     flex: 58.3% 0 0;
   }
-  .col-8{
+  .col-8 {
     flex: 66.6% 0 0;
   }
-  .col-9{
+  .col-9 {
     flex: 75% 0 0;
   }
-  .col-10{
+  .col-10 {
     flex: 83% 0 0;
   }
-  .col-11{
+  .col-11 {
    flex: 91.6% 0 0;
+  }
+  .card {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    box-shadow: 0 0 10px 5px black;
+    margin-bottom: 15px;
+
+  }
+  .card .card-image {
+    width: 100%;
+  }
+  .card .card-content {
+    padding: 10px;
   }
   
