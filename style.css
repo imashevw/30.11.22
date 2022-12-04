@@ -36,6 +36,7 @@
   }
   .col-4 {
     flex: 33.3% 0 0;
+    
   }
   .col-5 {
     flex: 41.6% 0 0;
@@ -64,8 +65,8 @@
   
   .card {
     background-color: black;
-    border: 1px solid tomato;
-    box-shadow: 5px 5px 0 0 tomato;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 0 0 grey;
     transform: rotate(1deg);
     transition: all 100ms ease-in;
   
